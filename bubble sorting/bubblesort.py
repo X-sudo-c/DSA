@@ -8,7 +8,7 @@ n = len(nums)
 
 #bubble sort algorithm
 def sort(nums):
-    for i in range(n):
+    for i in range(n):# the range is 5 meaning it iterates 5 times because there are 5 element
         for j in range (0, n - i -1):
             if nums[j] > nums[j + 1]:
                 #Swap elements
